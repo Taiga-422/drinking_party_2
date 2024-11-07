@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: greenyellow;
+    color: #333;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+
+header {
+    font-family: 'Arial', sans-serif;
+    background-color: green;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    letter-spacing: 10px;
+}
+
+section p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.sec2 {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+#sec2-display {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    width: 60%;
+    height: 500px;
+}
+
+.character {
+    width: 50%;
+    text-align: center;
+}
+
+.character p {
+    height: 30%;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+    display: grid;
+    place-items: center;
+    background-color: rgb(246, 60, 60);
+    color: white;
+}
+
+#character-box {
+    text-align: center;
+    margin: 0;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(249, 137, 137);
+    border-color: black;
+    font-size: 100px;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.num {
+    width: 50%;
+    text-align: center;
+}
+
+.num p {
+    height: 30%;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+    display: grid;
+    place-items: center;
+    color: whitesmoke;
+    background-color: blueviolet;
+}
+
+#number-box {
+    text-align: center;
+    margin: 0;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(169, 149, 251);
+    border-color: black;
+    font-size: 100px;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    height: 300px;
+}
+
+.skiparea {
+    text-align: center;
+}
+
+.next {
+    margin-top: 50px;
+}
+
+.skiparea p {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+button {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+}

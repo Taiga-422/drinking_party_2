@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi and Low</title>
+    <link rel="stylesheet" href="./css/hi-low.css">
+</head>
+<body>
+    <header>
+        <h1>High and Low - カードゲーム</h1>
+    </header>
+    <section>
+        <div>
+            <h2>説明</h2>
+            <p>「High and Low」は、現在表示されているカードよりも大きいか小さいかを予想して、正解かどうかを競うゲームです。</p>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            <div class="card-display">
+                <div id="current-card">
+                    <p>Current Card</p>
+                    <p>?</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button onclick="guess('high')" class="high">High</button>
+                <button onclick="guess('low')" class="low">Low</button>
+            </div>
+            <p id="result"></p>
+            <p id="score">連続正解数: 0</p>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/hi-low.js"></script>
+</body>
+</html>

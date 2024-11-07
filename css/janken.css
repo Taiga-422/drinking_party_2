@@ -1,0 +1,173 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: greenyellow;
+    color: #333;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+
+header {
+    font-family: 'Arial', sans-serif;
+    background-color: green;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    width: 100%;
+    position: fixed;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#sec1 {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+#sec1 h2 {
+    font-size: 28px;
+    letter-spacing: 10px;
+}
+
+#sec1 p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+#sec2 {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+#sec2-display {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    width: 60%;
+    height: 500px;
+}
+
+.computer {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.computer p {
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.user {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.user p {
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.janken-area {
+    width: 70%;
+    height: 300px;
+}
+
+.contents {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rock {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(169, 205, 239);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+:hover.rock {
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+
+.scissors {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(246, 135, 104);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+:hover.scissors {
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+
+.paper {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(147, 247, 147);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+:hover.paper {
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+sub {
+    display: flex;
+    justify-content: center;
+}
+
+#history {
+    width: 60%;
+    height: 300px;
+    border: 1px solid #000;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+

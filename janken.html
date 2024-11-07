@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんゲーム</title>
+    <link rel="stylesheet" href="./css/janken.css">
+</head>
+<body>
+    <header>
+        <h1>じゃんけん - 会計決めゲーム</h1>
+    </header>
+    <section id="sec1">
+        <h2>説明</h2>
+        <p>コンピューターとじゃんけんをするシンプルなゲームです。</p>
+        <p>会計する人を決めるときに役立つかも…</p>
+    </section>
+    <section id="sec2">
+        <div id="sec2-display">
+            <div class="computer">
+                <p>コンピューター</p>
+                <!-- コンピューター側の選択を表示する画像 -->
+                <img id="computerChoiceImg" src="">
+            </div>
+            <div class="user">
+                <p>あなた</p>
+                <!-- ユーザー側の選択を表示する画像 -->
+                <img id="userChoiceImg" src="">
+            </div>            
+        </div>
+    </section>
+    <main>
+        <div class="janken-area">
+            <div class="contents">
+                <button onclick="play('rock')" class="rock">グー</button>
+                <button onclick="play('scissors')" class="scissors">チョキ</button>
+                <button onclick="play('paper')" class="paper">パー</button>
+            </div>
+            <p>ボタンを押してください</p>
+        </div>
+    </main>
+    <sub>
+        <div id="history"></div>
+    </sub>
+    <script src="https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/janken.js"></script>
+</body>
+</html>

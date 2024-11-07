@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: greenyellow;
+}
+
+header {
+    background-color: green;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+main h1 {
+    margin-top: 0px;
+    padding-top: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+main p {
+    font-size: 20px;
+    text-align: center;
+}
+
+#game-section {
+    display: flex;
+    justify-content: center;
+}
+
+#hi-lo {
+    width: 400px;
+    height: 400px;
+    margin: 20px 40px 20px 40px ;
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 4px 4px 2px white;
+    background-image: url(../img/hiandlow_img.jpeg);
+    background-size: 400px;
+}
+
+#hi-lo:hover {
+    background-image: none;
+    background-color: black;
+    color: white;
+    text-shadow: none;
+}
+
+#flash-w {
+    width: 400px;
+    height: 400px;
+    margin: 20px 40px 20px 40px;
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 4px 4px 2px yellow;
+    background-image: url(../img/flashw_img.png);
+    background-size: 400px;
+}
+
+#flash-w:hover {
+    background-image: none;
+    background-color: black;
+    color: white;
+    text-shadow: none;
+}
+
+#janken {
+    width: 400px;
+    height: 400px;
+    margin: 20px 40px 20px 40px;
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 4px 4px 2px rgb(228, 125, 6);
+    background-image: url(../img/janken_img.jpg);
+    background-size: 400px;
+    background-position: center;
+}
+
+#janken:hover {
+    background-image: none;
+    background-color: black;
+    color: white;
+    text-shadow: none;
+}
+
+main h2 {
+    text-align: center;
+}
+

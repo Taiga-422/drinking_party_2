@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLASH WORD</title>
+    <link rel="stylesheet" href="./css/flash-w.css">
+</head>
+
+<body>
+    <header>
+        <h1>FLASH WORD - カードゲーム</h1>
+    </header>
+    <section class="sec1">
+        <h2>説明</h2>
+        <p>「FLASH WORD」は、カードに書かれたひらがなから始まる単語を素早く考えるワードゲームです。</p>
+        <p>答える際は、数字カードに書かれた数字と同じ文字数でこたえなければなりません。</p>
+        <p>※数字カードの「0」か「1」出た場合は、「次へ」ボタンを押してスキップしてください。</p>
+    </section>
+    <section class="sec2">
+        <div id="sec2-display">
+            <div class="character">
+                <p>ひらがな</p>
+                <h1 id="character-box">?</h1>
+            </div>
+            <div class="num">
+                <p>数字</p>
+                <h1 id="number-box">?</h1>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="skiparea">
+            <div class="next">
+                <button>次へ</button>
+            </div>
+            <p>ボタンを押して次のカードを引く</p>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/howler@2.2.4/dist/howler.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/flash-w.js"></script>
+</body>
+
+</html>
