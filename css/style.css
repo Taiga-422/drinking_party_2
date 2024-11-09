@@ -74,7 +74,7 @@ main p {
     background-image: url(../img/flashw_img.png);
     background-size: 400px;
     transform: translateY(100%);
-    animation: fadeInFromBottom 1s forwards;
+    animation: fadeInFromBottom 2s forwards;
 }
 
 #flash-w:hover {
@@ -95,7 +95,7 @@ main p {
     background-size: 400px;
     background-position: center;
     transform: translateY(100%);
-    animation: fadeInFromBottom 1s forwards;
+    animation: fadeInFromBottom 3s forwards;
 }
 
 #janken:hover {
