@@ -41,9 +41,9 @@ function play(userChoice) {
 
     // 選択に対応する画像のURLを保持するオブジェクト
     const choiceImage = {
-        'rock': '../img/rock_img.png',
-        'scissors': '../img/scissors_img.png',
-        'paper': '../img/paper_img.png'
+        'rock': 'https://github.com/Taiga-422/drinking_party_2/blob/main/img/rock_img.png',
+        'scissors': 'https://github.com/Taiga-422/drinking_party_2/blob/main/img/scissors_img.png',
+        'paper': 'https://github.com/Taiga-422/drinking_party_2/blob/main/img/paper_img.png'
     };
 
     // コンピュータの選択を日本語に変換
