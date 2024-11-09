@@ -42,7 +42,7 @@ function guess(prediction) {
     document.querySelector("#current-card").innerText = `Current Card: ${currentCard.rank} ${currentCard.mark}`;
 }
 
-// バックグラウンドで音楽再生
+// バックグラウンドで音楽再生（Holer.jsのライブラリを使用）
 const music = new Howl({
     src: 'https://upload.wikimedia.org/wikipedia/commons/b/b8/%22Ethiopia_Rag%22_%281909%29%2C_by_Joseph_F._Lamb.mp3',
     autoplay: true,
