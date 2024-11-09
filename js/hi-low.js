@@ -4,7 +4,7 @@ const marks = ["♠", "♥", "♦", "♣"];
 const ranks = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 
 // 現在のカードとスコア
-let currentCard = drawCard();
+let currentCard = draw();
 let conbo = 0;  // 連続正解数
 
 // 「innerText」のプロパティは、その要素のテキスト内容を設定するために必要。
@@ -12,7 +12,7 @@ document.querySelector("#current-card").innerText = `Current Card: ${currentCard
 
 // カードを引く関数
 // 「marks.legth」「ranks.length」と書くことで、marksやranksの配列のインデックスとして使える範囲の数を得ることができる。
-function drawCard() {
+function draw() {
     let mark = marks[Math.floor(Math.random() * marks.length)];
     let rank = ranks[Math.floor(Math.random() * ranks.length)];
     return { mark: mark, rank: rank, rankValue: ranks.indexOf(rank) };
@@ -20,7 +20,7 @@ function drawCard() {
 
 // ゲームの予測関数
 function guess(prediction) {
-    let newCard = drawCard(); //新しいカードを引いて、そのカード情報をnewCardに代入する。後で使う
+    let newCard = draw(); //新しいカードを引いて、そのカード情報をnewCardに代入する。後で使う
     let resultText = ''; //予測結果に応じて、テキストの内容を変えるために変数を作っておく。GsのEランでやってた。
 
     // 下のコードの場合、もし予測結果が「highかつ引いたカード情報のランクが現在のカードよりも高い場合」を意味している。
