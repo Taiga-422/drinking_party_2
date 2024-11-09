@@ -75,7 +75,7 @@ function play(userChoice) {
     const addHistory = document.getElementById('history');
     addHistory.prepend(historyElement);
 
-}
+};
 
 
 // バックグラウンドで音楽再生
