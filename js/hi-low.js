@@ -35,7 +35,7 @@ function guess(prediction) {
 
     // 結果と連続正解数の更新
     document.querySelector("#result").innerText = resultText;
-    document.querySelector("#score").innerText = `conbo: ${conbo}`;
+    document.querySelector("#score").innerText = `連続正解数: ${conbo}`;
 
     // 新しいカードをセット
     currentCard = newCard;
