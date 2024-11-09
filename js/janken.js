@@ -41,9 +41,9 @@ function play(userChoice) {
 
     // 選択に対応する画像のURLを保持するオブジェクト
     const choiceImage = {
-        'rock': 'https://illustcenter.com/wp-content/uploads/2022/05/rdesign_14296.png',
-        'scissors': 'https://illustcenter.com/wp-content/uploads/2022/05/rdesign_14297.png',
-        'paper': 'https://illustcenter.com/wp-content/uploads/2022/05/rdesign_14298.png'
+        'rock': '../img/rock_img.png',
+        'scissors': '../img/scissors_img.png',
+        'paper': '../img/paper_img.png'
     };
 
     // コンピュータの選択を日本語に変換
@@ -59,12 +59,12 @@ function play(userChoice) {
     const resultText = `コンピューターの選択： ${computerChoicejapanese}. 結果: ${result}`;
 
     // ユーザの選択を画像で表示
-    const yourChoiceImg = document.getElementById(`userChoiceImg`);
+    const yourChoiceImg = document.querySelector(`#userChoiceImg`);
     // userChoiceImgというID属性を持ったタグを使用できるように代入する
     yourChoiceImg.src = choiceImage[userChoice];
 
     // コンピュータの選択を画像で表示
-    const computerChoiceImg = document.getElementById(`computerChoiceImg`);
+    const computerChoiceImg = document.querySelector(`#computerChoiceImg`);
     computerChoiceImg.src = choiceImage[computerChoice];
 
     // 結果を履歴として追加
@@ -72,9 +72,8 @@ function play(userChoice) {
     historyElement.innerText = resultText;
 
     // 履歴をDOMに追加
-    const addHistory = document.getElementById('history');
+    const addHistory = document.querySelector('#history');
     addHistory.prepend(historyElement);
-
 };
 
 
