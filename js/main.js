@@ -1,13 +1,13 @@
 $("#hi-lo").on("click",function () {
-        window.location.href = "https://taiga-422.github.io/drinking-party-game/hi-low.html";
+        window.location.href = "https://taiga-422.github.io/drinking_party_2/hi-low.html";
 });
 
 $("#flash-w").on("click",function () {
-        window.location.href = "https://taiga-422.github.io/drinking-party-game/flash-w.html";
+        window.location.href = "https://taiga-422.github.io/drinking_party_2/flash-w.html";
 });
 
 $("#janken").on("click",function () {
-        window.location.href = "https://taiga-422.github.io/drinking-party-game/janken.html";
+        window.location.href = "https://taiga-422.github.io/drinking_party_2/janken.html";
 });
 
 const music = new Howl({
